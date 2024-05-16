@@ -1,0 +1,63 @@
+#nav-container {
+    height: 99vh;
+    width: 20%;
+    /* border: 1px solid red; */
+    /* align-items: center; */
+    background-color: rgb(164, 156, 167);
+}
+
+.school--logo {
+    /* border: 1px solid red; */
+    width: 250px;
+}
+
+.img-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.content-left {
+    padding: 20px;
+    position: relative;
+    top: -50px;
+  }
+  
+  .content-left p {
+    margin: 0;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #eee; 
+    cursor: pointer; 
+  }
+
+  .content-left a {
+    text-decoration: none;
+  }
+  
+  .content-left p:hover {
+    background-color: #f5f5f5;
+  }
+
+  @media (max-width: 768px) {
+    #nav-container {
+        width: 0;
+        height: auto; 
+        display: flex;
+        background-color: none;
+    }
+
+    .school--logo {
+        margin-bottom: 20px;
+        width: 150px;
+        position: relative;
+        right: 20px;
+    }
+
+    .content-left p{
+
+       display: none;
+       width: 0;
+    }
+}
+  

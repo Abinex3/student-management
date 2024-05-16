@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.data-input {
+    display: flex;
+    justify-content: center;
+}
+
+.input-[type=text]{
+    width:30%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    margin-right: 30px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  }
+  
+.input-[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.sub-button {
+    width:10%;
+    border:none;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    background-color: #BD68C6;
+    margin-right: 30px;
+    color: white;
+}
+
+.mark-table {
+    /* width: 40%; */
+    display: flex;
+    /* justify-content: center; */
+    /* border: 1px solid green; */
+    margin-top: 60px;
+    height: 30vh;
+    /* background-color: green */
+}
+
+.body-header table {
+    /* background-color: green; */
+    width: 740px;
+    height: 40vh;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.body-header .t1 {
+    background-color: lightgray;
+}
+
+.body-header .t2 {
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+}
+
+.finalMark {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.finalMark p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.student-info {
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 37vh;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(229, 226, 226);  
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+.student-info p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.student-info p span {
+    color: #BD68C6;
+}
+
+.scl-heading {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  
+}
+
+.inHead {
+    font-size: 20px;
+    font-family: "Freeman", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 768px){
+    @media (max-width: 768px) {
+        .data-input {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .input-[type=text] {
+            width: 80%;
+            margin-right: 0;
+        }
+    
+        .sub-button {
+            width: 80%;
+            margin-right: 0;
+        }
+    
+        .mark-table {
+            margin-top: 20px;
+        }
+    
+        .body-header table {
+            font-size: 12px;
+            width: 300px;
+            margin-left: 25px;
+        }
+    
+        .finalMark p {
+            font-size: 14px;
+        }
+    
+        .student-info {
+           display: none;
+        }
+
+        .body-header th,
+        .body-header td {
+            padding: 6px;
+        }
+    
+        .finalMark p {
+            font-size: 14px;
+        }
+    }
+}
+
+

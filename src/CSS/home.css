@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gabarito&family=Homenaje&family=Josefin+Sans:wght@200;300&family=Lexend&family=Mohave:ital,wght@1,500&family=Oswald:wght@300&family=Outfit&family=Poppins:wght@300;400&family=Prompt:wght@300&family=Teko:wght@300&family=Work+Sans&family=Young+Serif&display=swap');
+
+#home-container {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #b0d7ff; */
+    background-image: url('../assets/home-back1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.home-nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-content{
+    /* border: 1px solid blue; */
+    display: flex;
+    height: 77vh;
+}
+
+.school-logo {
+    width: 150px;
+    position: relative;
+    top: -10px;
+    /* border: 1px solid green; */
+}
+
+.login-button {
+    height: 50px;
+    padding: 10px 25px 10px 25px;
+    margin-right: 30px;
+    margin-top: 30px;
+        /* padding: 15px 20px 15px 10px; */
+        background-color: #BD68C6;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        cursor: pointer;
+}
+
+.greeting {
+    font-weight: bolder;
+    font-size: 50px;
+    /* width: 550px; */
+    margin-bottom: 0;
+}
+
+.sub {
+    color: #686868;
+    font-size: 20px;
+}
+
+.button{
+    background-color: #BD68C6;
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    cursor: pointer;
+}
+
+.text-container {
+    width: 50%;
+    /* border: 1px solid red; */
+    padding: 0 20px 0 40px;
+    
+}
+
+.imgg-container {
+    width: 50%;
+    height: 86vh;
+    background-image: url('../assets/home-back.png');
+    /* border: 1px solid yellow; */
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-position-x: -50px;
+    position: relative;
+    top: -50px;
+}
+
+/* .school-girl {
+    width: 700px;
+    border: 1px solid red;
+} */
+
+@media (max-width: 768px) {
+   
+    .login-button {
+        height: 40px;
+        margin-top: 40px;
+    }
+
+    .greeting {
+        font-size: 30px;
+        width: 250px;
+        position: relative;
+        top: -20px;
+    }
+    
+    .sub {
+        color: #686868;
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .imgg-container {
+        background-image: none;
+    }
+    
+}

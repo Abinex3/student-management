@@ -1,0 +1,79 @@
+#signup-container {
+    /* overflow: hidden; */
+
+    
+    height: 99vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.form--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form--container--style {
+    /* border: 1px solid red; */
+    padding: 70px 50px 50px 0px;  
+    width: 20%;
+}
+.input--style {
+    padding: 10px 20px 10px 10px;
+}
+
+.login--name {
+    font-size: 40px;
+    margin: 0;
+}
+
+.sub--name {
+    margin: 0;
+}
+
+.input--style {
+    padding: 10px 20px 10px 10px;
+    width: 100%;
+}
+
+.input---style {
+    width: 340px;
+    padding: 10px 20px 10px 10px;
+}
+
+.button--style {
+    width: 340px;
+    padding: 15px 20px 15px 10px;
+    background-color: #BD68C6;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+
+.signup-div {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    position: relative;
+    top: 10px;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.input--style {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-error {
+    border-color: #ff0000;
+}
+

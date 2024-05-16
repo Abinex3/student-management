@@ -1,0 +1,24 @@
+#update-container {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+    #update-container {
+        display: inline;
+    }
+    
+    .wrap{
+        max-height: 340px;
+        overflow-y: scroll;
+    }
+
+    .wrap::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .wrap .input_box{
+        width: 100%;
+    }
+
+}
